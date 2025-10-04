@@ -36,7 +36,11 @@ Configuración de Evolution API si es necesario
 
 chmod +x setup.sh
 source .env
-./setup.sh
+./start_n8n_services.sh
+
+chmod +x stop_evolution.sh
+./stop_n8n_services.sh
+
 
 4. Accede a:
 
